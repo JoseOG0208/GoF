@@ -3,7 +3,7 @@ package biblioteca.commands;
 import biblioteca.Book;
 
 // Clase que implementa el comando para reservar un libro en el sistema de biblioteca.
-// Esta clase sigue el patrón de diseño Command, proporcionando una forma estructurada
+// Esta clase sigue el patrón de diseño Command, proporcionando una forma
 // de encapsular la acción de reservar un libro como un objeto.
 public class ReserveBookCommand implements Command {
     private Book book; // Referencia al libro que será reservado.
