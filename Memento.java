@@ -6,7 +6,7 @@ import java.util.List;
 
 
 // Clase Memento que almacena el estado de un objeto Originator.
-// En este contexto, el Originator manejará una lista de libros y el Memento almacenará
+// el Originator manejará una lista de libros y el Memento almacenará
 // una instantánea de esa lista en un punto específico del tiempo.
 public class Memento {
     private List<Book> state; // Lista para almacenar el estado de los libros.
