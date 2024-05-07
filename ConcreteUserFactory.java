@@ -8,8 +8,7 @@ import java.util.Scanner;
 
 // Clase concreta ConcreteUserFactory que extiende UserFactory.
 // Esta fábrica es responsable de crear instancias concretas de diferentes tipos de usuarios
-// basados en el tipo especificado. Utiliza el patrón de diseño Factory Method para permitir
-// flexibilidad en la creación de diferentes tipos de usuarios.
+// basados en el tipo especificado. 
 public class ConcreteUserFactory extends UserFactory {
     private Scanner scanner;
 
@@ -19,8 +18,7 @@ public class ConcreteUserFactory extends UserFactory {
     }
 
     // Implementa el método createUser de la clase abstracta UserFactory para crear diferentes tipos
-    // de usuarios basados en el tipo especificado. La creación del usuario depende del tipo
-    // que se le pase, y cada tipo corresponde a una clase de usuario diferente.
+    // de usuarios basados en el tipo especificado.
     @Override
     public User createUser(String type, String name) {
         switch (type.toLowerCase()) {
