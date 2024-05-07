@@ -18,7 +18,7 @@ public class DatabaseManager {
     //Constructor privado para prevenir la instanciación directa y garantizar el uso del patrón Singleton.
     private DatabaseManager() { }
 
-    // Método estático sincronizado para obtener la instancia única del DatabaseManager.
+    // Método estático para obtener la instancia única del DatabaseManager.
     // Si no existe una instancia, crea una nueva. De lo contrario, devuelve la existente.
     public static synchronized DatabaseManager getInstance() {
         if (instance == null) {
